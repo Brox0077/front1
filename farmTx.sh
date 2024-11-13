@@ -44,7 +44,7 @@ cat << EOF > zun.mjs
 import web3 from "@solana/web3.js";
 import chalk from "chalk";
 import bs58 from "bs58";
-const connection = new web3.Connection("https://frontier v1.sonic.game", 'confirmed');
+const connection = new web3.Connection("https://odyssey.sonic.game", 'confirmed');
 const privkey = "$privkey";
 const from = web3.Keypair.fromSecretKey(bs58.decode(privkey));
 const to = web3.Keypair.generate();
